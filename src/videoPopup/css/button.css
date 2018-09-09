@@ -1,0 +1,16 @@
+.sv_btn {
+    width: 4em;
+    padding: 4px 6px;
+    height: auto;
+    border: 2px solid;
+    color: #FFFFFF;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px slategray;
+    z-index: 2147483647 !important;
+    background: blue;
+    display: block;
+}
+
+.sv_btn::selection {
+    background: transparent;
+}

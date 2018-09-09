@@ -1,0 +1,66 @@
+#htmlToothbrush, #bodyToothbrush {
+    overflow: hidden !important;
+    zoom: 100% !important
+}
+
+#htmlToothbrush #bodyToothbrush .parentToothbrush {
+    overflow: visible !important;
+    z-index: auto !important;
+    transform: none !important;
+    -webkit-transform-style: flat !important;
+    transition: none !important;
+    contain: none !important;
+}
+
+#htmlToothbrush #bodyToothbrush .absoluteToothbrush {
+    position: absolute !important;
+}
+
+#htmlToothbrush #bodyToothbrush .playerToothbrush {
+    position: fixed !important;
+    top: 0px !important;
+    left: 1px !important;
+    width: calc(100vw - 2px) !important;
+    height: 100vh !important;
+    max-width: none !important;
+    max-height: none !important;
+    min-width: 0 !important;
+    min-height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    z-index: 2147483646 !important;
+    border: none !important;
+    background-color: #000 !important;
+    transform: none !important;
+}
+
+#htmlToothbrush #bodyToothbrush .playerToothbrush {
+    object-fit: contain !important;
+}
+
+
+/**
+
+#htmlToothbrush #bodyToothbrush .node-video.node-full video, #htmlToothbrush #bodyToothbrush .WB_h5video video {
+    width: inherit !important;
+    height: inherit !important;
+}
+
+#htmlToothbrush #bodyToothbrush #douyu_room_normal_flash_proxy_box {
+    position: fixed !important;
+    top: 0px !important;
+    left: 1px !important;
+    width: calc(100vw - 2px) !important;
+    height: 100vh !important;
+    max-width: none !important;
+    max-height: none !important;
+    min-width: 0 !important;
+    min-height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    z-index: 2147483645 !important;
+    border: none !important;
+    background-color: #000 !important;
+    transform: none !important;
+}
+**/
